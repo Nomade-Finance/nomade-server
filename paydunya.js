@@ -8,3 +8,5 @@ var setup = new paydunya.Setup({
   token: 'WAg0swUiSgJM85Yc18eL',
   mode: 'test' // Optionnel. Utilisez cette option pour les paiements tests.
 });
+
+console.log(setup);
