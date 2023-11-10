@@ -1,4 +1,9 @@
-# nomade-server
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Nomade-Finance/nomade-client/d3e34c3380571ea399d092652e765fe5bac9171d/src/assets/nomade-badge.svg" width="125" height="125" alt="badge-nomade">
+</div>
+<h1 align="center">&copy; Nomade Server</h1>
+
+
 
 This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 5.0.0-rc.4.
 
