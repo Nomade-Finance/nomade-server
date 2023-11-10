@@ -17,25 +17,25 @@ export default function seedDatabaseIfNeeded() {
 
     let thingPromise = Thing.find({}).remove()
         .then(() => Thing.create({
-            name: 'USDT',
-            info: ' '
+            name: 'BTC',
+            info: 'bitcoin:BC1PC4D08ZQC9JE9H9ZPTXXMQQHM4RQ3XP53K3U72J2WTJH9EGJXCVTQ0E5N8D?label=Nomande%20BTC&message=Deposit'
                 
         }, {
-            name: 'Wave',
+            name: 'ETH',
             info: ''
         }, {
-            name: 'ETH',
+            name: 'ETHL2',
             info: ' '
                   
         }, {
-            name: 'Orange Money',
-            info: ''
+            name: 'CARDMOBILE',
+            info: 'Paydunya'
         }, {
-            name: 'SOL',
-            info: ' '
+            name: 'Paypal',
+            info: 'souleymanefall1998@gmail.com' // not included right now
         }, {
-            name: 'BNB',
-            info: ''
+            name: 'DEX2DEX',
+            info: '' // sf up comming strategies
         }))
         .then(() => console.log('finished populating things'))
         .catch(err => console.log('error populating things', err));
