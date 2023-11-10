@@ -9,4 +9,12 @@ var setup = new paydunya.Setup({
   mode: 'test' // Optionnel. Utilisez cette option pour les paiements tests.
 });
 
-console.log(setup);
+var nomadefinance = new paydunya.Store({
+    name: 'NomadeFinance', 
+   
+    phoneNumber: '764789693',
+    postalAddress: 'Dakar Plateau - Guinee Hamdlaye',
+    websiteURL: 'http://www.nomade.finance',
+   
+   
+});
