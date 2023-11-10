@@ -16,6 +16,7 @@ var nomadefinance = new paydunya.Store({
     postalAddress: 'Dakar Plateau - Guinee Hamdlaye',
     websiteURL: 'http://www.nomade.finance',
     callbackURL: 'http://www.nomade.finance:9000/api/mobilemoney',
+    
    
    
 });
