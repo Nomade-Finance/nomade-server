@@ -7,6 +7,8 @@ module.exports = {
     DOMAIN: 'http://localhost:9000',
     SESSION_SECRET: 'nomadeserver-secret',
     BITCOIN_WALLET: 'bc1pc4d08zqc9je9h9zptxxmqqhm4rq3xp53k3u72j2wtjh9egjxcvtq0e5n8d',  
+    VOLTAGE_NOMADE:'vO5ucqUnwiP5HBvJgwrJr4eirnErGjL1HaCogxb6yfJiR8kGDz_JMgw',
+
 
     // Control debug level for modules using visionmedia/debug
     DEBUG: ''
