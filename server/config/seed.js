@@ -22,7 +22,7 @@ export default function seedDatabaseIfNeeded() {
                 
         }, {
             name: 'ETH',
-            info: ''
+            info: '0xA4CB776E2A5A4E3B1A25DD8DC688e818477fcDA5'
         }, {
             name: 'ETHL2',
             info: ' '
