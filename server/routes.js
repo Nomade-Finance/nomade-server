@@ -7,6 +7,7 @@ import path from 'path';
 
 export default function(app) {
     // Insert routes below
+    app.use('/api/exchanges', require('./api/exchange'));
     app.use('/api/mobilemoneys', require('./api/mobilemoney'));
     app.use('/api/transactions', require('./api/transaction'));
     app.use('/api/things', require('./api/thing'));
