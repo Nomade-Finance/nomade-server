@@ -19,7 +19,8 @@ var UserSchema = new Schema({
         type: String,
         required: true
     },
-    provider: String,
+    wallet: String,
+    isuseractivated:String,
     salt: String,
     phone:String,
 });
